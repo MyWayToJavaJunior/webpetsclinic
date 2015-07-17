@@ -20,7 +20,7 @@ public class Animal implements Pet {
 
     @Override
     public String getOwner() {
-        return owner;
+        return this.owner;
     }
 
     @Override
