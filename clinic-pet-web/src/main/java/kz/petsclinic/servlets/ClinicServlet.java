@@ -65,7 +65,7 @@ public class ClinicServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         if (!req.getParameter("name").isEmpty() && !req.getParameter("age").isEmpty())
-        this.pets.add(new Dog(new Animal(req.getParameter("name"), req.getParameter("age"), Integer.parseInt(req.getParameter("age")))));
+        this.pets.add(new Dog(new Animal(req.getParameter("name"), req.getParameter("owner"), Integer.parseInt(req.getParameter("age")))));
         if (!req.getParameter("find").isEmpty())
         this.nameForFind = req.getParameter("find");
         doGet(req, resp);
