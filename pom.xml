@@ -12,7 +12,7 @@
   <url>http://maven.apache.org</url>
   
   <modules>
-	<module>clinic</module>
+	<module>se</module>
 	<module>clinic-pet-web</module>
   </modules>
 </project>
