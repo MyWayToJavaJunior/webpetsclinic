@@ -13,8 +13,8 @@
   <dependencies>
   <dependency>
       <groupId>kz.petsclinic</groupId>
-      <artifactId>clinic</artifactId>
-      <version>1.2-Threads</version>
+      <artifactId>se</artifactId>
+      <version>1.0-pets</version>
     </dependency>
 	<dependency>
       <groupId>javax.servlet</groupId>
