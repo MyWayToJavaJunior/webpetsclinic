@@ -14,7 +14,6 @@ public class Dog implements Pet {
         return this.animal.getName();
     }
 
-    @Override
     public String getOwner() {
         return this.animal.getOwner();
     }

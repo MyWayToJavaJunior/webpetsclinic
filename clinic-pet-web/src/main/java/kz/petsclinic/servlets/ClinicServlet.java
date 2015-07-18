@@ -16,11 +16,11 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 
 /**
- * сервлет клиники
+ * СЃРµСЂРІР»РµС‚ РєР»РёРЅРёРєРё
  */
 public class ClinicServlet extends HttpServlet {
 
-    final List<Pet> pets = new CopyOnWriteArrayList<Pet>();
+    final List<Pet> pets = new CopyOnWriteArrayList<>();
     private String nameForFind;
 
     @Override
@@ -98,7 +98,7 @@ public class ClinicServlet extends HttpServlet {
             }
             sb.append("</table>");
         }
-        if (finded == false) {
+        if (!finded) {
             sb.delete(0, sb.capacity());
             sb.append("<p>Not Found</p>");
         }

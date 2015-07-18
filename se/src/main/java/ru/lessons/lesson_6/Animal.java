@@ -18,12 +18,10 @@ public class Animal implements Pet {
         return this.name;
     }
 
-    @Override
     public String getOwner() {
         return this.owner;
     }
 
-    @Override
     public int getAge() {
         return this.age;
     }
